@@ -1,6 +1,6 @@
 package ru.netology.nosql_mongodb;
 
-//
+
 //import com.mongodb.client.MongoClient;
 //import com.mongodb.client.MongoClients;
 //import com.mongodb.client.MongoCollection;
@@ -11,11 +11,11 @@ package ru.netology.nosql_mongodb;
 //@SpringBootApplication
 //public class CreateCollections {
 //    public static void main(String[] args) {
-//        String uri = "mongodb://localhost";
+//        String uri = "mongodb://localhost:27017/mongoDB";
 //        MongoClient mongoClient = MongoClients.create(uri);
 //        MongoDatabase database = mongoClient.getDatabase("mongoDB");
 //
-/// /        database.createCollection("Users");
+/// /       database.createCollection("Users");
 //        MongoCollection<Document> users = database.getCollection("Users");
 //
 //        users.insertOne(new Document()
